@@ -1,3 +1,102 @@
-* {
-    border: 2px solid red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* Main */
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body, div, span, p, h1, h2, h3, h4, a{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Sections */
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_wrapper{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/* Section Colors */
+
+.section{
+    background-color: white;
+}
+.section.quote{
+    background-color: #E5E7EB;
+}
+.section.hero{
+    background-color: #1F2937;
+}
+.section.dark {
+    background-color: #1F2937;
+}
+
+.call-to-action {
+    padding: 20px 50px;
+    background-color: #3882F6;
+    margin: 75px;
+    border-radius: .5em;
+}
+
+/* Quote Styling */
+
+.section.quote p {
+    padding: 75px;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+.section.quote span {
+    display: block;
+    color: #1F2937;
+    letter-spacing: 0px;
+    font-size: 22px;
+    font-style:normal;
+    font-weight: 800;
+    float: right;
+    padding: 50px;
+    
+}
+
+/* Call to action Styling */
+
+.call-to-action {
+    color: white;
+    padding: 20px 50px;
+    background-color: #3882F6;
+    margin: 75px;
+    border-radius: .5em;
+}
+
+.call-to-action span {
+    color: white;
+    font-weight: 800;
+}
+
+
+/* Footer Styling */
+
+.footer p{
+    padding: 25px;
+    color: white;
+
 }

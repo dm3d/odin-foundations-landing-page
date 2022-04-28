@@ -8,115 +8,96 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/style.css">
     </head>
+    <body class="full-width">
+        <div class="wrapper">
 
-
-    <body class="full-width classic-center">
-
-        <!--TODO Polish DIVs and layout
-        <div class="container">
-            <div class="row">
-                <div class="header">   
-                    <div class="navbar">
-                            <h1 class="logo">Header Logo</h1>
-                            <nav>
-                                <ul>
-                                    <li class="nav"><a href="#">header link one</a></li>
-                                    <li class="nav"><a href="#">header link two</a></li>
-                                    <li class="nav"><a href="#">header link three</a></li>
-                                </ul>
-                            </nav>
-                    </div>
-                    <div class="welcome-hero-container">
-
-                        <h1 class="introduction">This website is awesome</h1>
-                        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                        
-                        <a class="button dark" href="#">
-                            <span>Sign up</span>
-                        </a>
-
-                        
-                        <img src="https://via.placeholder.com/400x200">
-
-                    </div>
+            <!--Header-->
+            <div class="section header flex-center dark">
+                <div class="fixed-width flex flex-1">
+                    <nav class="navbar">
+                        <h1 class="logo">Header Logo</h1>
+                        <ul class="nav-links">
+                          <li class="nav-item"><a href="#">header link one</a></li>
+                          <li class="nav-item"><a href="#">header link two</a></li>
+                          <li class="nav-item"><a href="#">header link three</a></li>
+                        </ul>
+                      </nav>
                 </div>
-
-                <div class="section">
-                    <div class="blog-title">
-                        <h3 class ="blog">Some random information.</h3>
-                    </div>   
-
-                    <div class="blog-posts">
-
-                        <div class="blog-item"> 
-                            <img src="https://via.placeholder.com/125x125">
-                            <p>This is some subtext under an illustration or image.</p>
-                        </div>
-
-                        <div class="blog-item"> 
-                            <img src="https://via.placeholder.com/125x125">
-                            <p>This is some subtext under an illustration or image.</p>
-                        </div>
-
-                        <div class="blog-item"> 
-                            <img src="https://via.placeholder.com/125x125">
-                            <p>This is some subtext under an illustration or image.</p>
-                        </div>
-
-                        <div class="blog-item"> 
-                            <img src="https://via.placeholder.com/125x125">
-                            <p>This is some subtext under an illustration or image.</p>
-                        </div>
-
-                    </div>
-                </div>
-        --->
+            </div>
 
             <!--Hero Section-->
-            <div class="section hero">
-                <p style="padding: 50px;"></p>
+            <div class="section flex-center dark">
+                <div class="fixed-width flex-1">
+                    <!--TODO Hero Section-->
+                </div>
             </div>
 
-            <!--Top 5 Blog Articles Section-->
-            <div class="section">
-                <p style="padding: 50px;"></p>
+            <!--Blog Section-->
+            <div class="section flex-center">
+                <div class="fixed-width flex-1">
+                    <div class="blog-post-wrapper flex-column column-center">
+                        <h2 class="blog-section-headline">Some random information here.</h2>
+                        <div class="blog-post flex">
+                            <div class="blog-item flex-1">
+                                <img src="https://via.placeholder.com/125x125">
+                                <p>This is some subtext under an illustration or image.</p>
+                            </div>
+                            <div class="blog-item flex-1">
+                                <img src="https://via.placeholder.com/125x125">
+                                <p>This is some subtext under an illustration or image.</p>
+                            </div>
+                            <div class="blog-item flex-1">
+                                <img src="https://via.placeholder.com/125x125">
+                                <p>This is some subtext under an illustration or image.</p>
+                            </div>
+                            <div class="blog-item flex-1">
+                                <img src="https://via.placeholder.com/125x125">
+                                <p>This is some subtext under an illustration or image.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
 
             <!--Quote Section-->
-            <div class="section quote">
-                <div class="section_wrapper">
-                    <div class="quote">
-                        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who Knows? All I know is that it looks nice.<span>-Thor, God of Thunder</span></p>
-                    </div>
-                </div>
-            </div>     
-            
-            <!--Call to action with button Section-->
-            <div class="section">
-                <div class="section_wrapper">
-                    <div class="call-to-action">
-                        <div class="call-to-action-left">
-                            <h3>Call to action! It's time!</h3>
-                            <p>Sign up for our product by clicking that button right over there!</p>
+            <div class="section flex-center grey">
+                <div class="fixed-width flex-1">
+                    <!--TODO Quote Section
+                        <div class="quote">
+                            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who Knows? All I know is that it looks nice.<span>-Thor, God of Thunder</span></p>
                         </div>
-                        <div class="call-to-action-right">
-                            <a class="button light" href="#">
-                                <span>Sign up</span>
-                            </a>
-                        </div>
-                    </div>
+                    -->
                 </div>
             </div>
 
-            <!--Footer-->
-            <div class="section dark">
-                <div class="section_wrapper">
-                    <div class="footer">
-                        <p>Copyright &copy; Odin Project</p>
+            <!--Call to action section-->
+            <div class="section flex-center">
+                <div class="fixed-width flex-1">
+
+                    <!--TODO call to action
+                    <div class="call-to-action-wrapper">
+                        <div class="call-to-action flex-center">
+                            <div class="call-to-action-left flex-1">
+                                <h3>Call to action! It's time!</h3>
+                                <p>Sign up for our product by clicking that button right over there!</p>
+                            </div>
+                            <div class="call-to-action-right flex-1">
+                                <a class="button light" href="#">Sign up</a>
+                            </div>
+                        </div>
                     </div>
+                    -->
+
                 </div>
             </div>
-        
+            <!--Footer-->
+            <div class="section footer flex-center dark">
+                <div class="fixed-width flex-1">
+                    <!--TODO Footer wrapper
+                    <p class="footer-text">Copyright &copy; The Odin Project 2022</p>
+                    -->
+                </div>
+            </div>
+        </div>
     </body>
 </html>
